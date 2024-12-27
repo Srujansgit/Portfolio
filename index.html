@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chilveri Srujan Kumar - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <p class="hero-subtitle">Heyo! I'm</p>
+            <h1 class="hero-title">Chilveri Srujan Kumar</h1>
+            <!-- Add "Download Resume" Button -->
+            <button class="action-button" onclick="downloadResume()">Download Resume</button>
+            </div>
+                <!-- Add "Contact Me" Button -->
+                <button class="action-button" onclick="scrollToSection('contact')">Contact Me</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="centered-section">
+                <h2>About Me</h2>
+                <p>
+                    Hi, I’m Srujan, a 3rd-year Computer Science Engineering student from Bengaluru with a deep passion for DevOps, cloud technologies, CI/CD, Kubernetes, and related tools. I thrive on teamwork, creativity, and adaptability, which make me a strong problem solver and collaborator.
+                </p>
+                <p>
+                    I’m well-versed in programming languages like C, Java, Go, and PL/SQL, and have a solid grasp of Data Structures and Algorithms. My technical expertise extends to tools and platforms like AWS, AutoCAD, Vivado, Eclipse, VS Code, and Oracle SQL. Additionally, I have in-depth knowledge in areas such as Digital System Design, Computer Networks, Database Management, Deep Learning, Operating Systems, and Formal Languages.
+                </p>
+                <p>
+                    Beyond the technical realm, I am passionate about teaching, traveling, and sports, including football and basketball. Having represented my school and college teams, I believe in the power of discipline, strategy, and collaboration both on and off the field.
+                </p>
+                <p>
+                    Whether you’re looking for a dedicated engineer to bring innovative solutions to your projects, a tutor to share knowledge, or even just a teammate for a football or basketball match, I’d love to connect with you. Let’s build something amazing together!
+                </p>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education section">
+            <h2>Education</h2>
+             <!-- Manipal Institute of Technology -->
+            <div class="content-container education-entry">
+                <div class="education-description">
+                    <h3><a href="https://manipal.edu/" target="_blank">Manipal Institute of Technology</a></h3>
+                    <p>B.Tech in Computer Science Engineering (Specialization in Cyber Security)</p>
+                    <p><strong>CGPA:</strong> 8.73</p>
+                    <p><strong>Years:</strong> 2022 - 2026</p>
+                    <p>
+                        Manipal presented unprecedented scale and diversity of opportunity. My four years of phenomenal professors across the disciplines pushed me to expand, challenge, and adjust my worldview.
+                    </p>
+                    <ul>
+                        <li><strong>Executive Head, IEEE GRSS MIT Bengaluru:</strong> Oversaw events, operations, finances, and general direction.</li>
+                        <li><strong>Executive Lead, NULL-MIT BLR:</strong> Organized, administered, executed tasks, and led the team effectively.</li>
+                        <li><strong>Organizing Committee, Tech Solstice:</strong> Played a vital role in leading, organizing, planning, and executing 2+ tech events from scratch.</li>
+                        <li><strong>Editorial Manager, AADYANT:</strong> Contributed to the editorial process and publication of the college newsletter with a readership of 6000+ members. Developed content strategies, oversaw production schedules, and supervised editorial staff.</li>
+                        <li><strong>Outreach Member, Placement Cell:</strong> Actively facilitated outreach initiatives to connect students with placement opportunities and resources.</li>
+                        <li><strong>Media Lead, Avalokana Magazine:</strong> Directed media-related activities and contributed to the successful publication and promotion of the college magazine.</li>
+                        <li><strong>Sponsorship Head, Entrepreneurship Cell:</strong> Led sponsorship initiatives, established partnerships, and secured funding for various entrepreneurial events and projects.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Geetanjali Olympiad School -->
+            <div class="content-container education-entry">
+                <div class="education-description">
+                    <h3><a href="https://gosbangalore.com/" target="_blank">Geetanjali Olympiad School</a></h3>
+                    <p>CBSE Class 12 - Scored 418/500</p>
+                    <p><strong>Year:</strong> 2022</p>
+                    <p><strong>Course:</strong> Physics, Chemistry, Math, Physical Education (PCMPe)</p>
+                    <ul>
+                        <li><strong>Activities and Societies:</strong> 
+                            Engaged deeply in understanding Physics, Chemistry, and Mathematics, complemented by extensive practical experiments. Gained hands-on experience in laboratory settings, applying theoretical knowledge to real-world scenarios. Participated actively in Physical Education, which fostered teamwork, discipline, and physical fitness.
+                        </li>
+                        <li><strong>Skills:</strong> 
+                            Developed a strong foundation in analytical problem-solving, quantitative reasoning, and scientific experimentation through Mathematics, Chemistry, and Physics. Enhanced communication, leadership, and collaborative skills through participation in group projects and activities.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Euro School -->
+            <div class="content-container education-entry">
+                <div class="education-description">
+                    <h3><a href="https://www.euroschoolindia.com/best-schools-in-bangalore/cbse-whitefield/" target="_blank">Euro School, Whitefield</a></h3>
+                    <p>CBSE Class 10 - Scored 535/600</p>
+                    <p><strong>Year:</strong> 2020</p>
+                    <ul>
+                        <li><strong>Football Team Achievements:</strong> 
+                            Represented the school football team in 10+ tournaments, demonstrating exceptional teamwork, perseverance, and sportsmanship. Played a key role in securing multiple victories, showcasing leadership on the field.
+                        </li>
+                        <li><strong>Student Council Responsibilities:</strong> 
+                            Hosted and managed 7+ school-wide activities as a member of the student council. Ensured seamless execution of events while maintaining discipline, developing organizational and event management skills.
+                        </li>
+                        <li><strong>Skills:</strong> 
+                            Gained expertise in goal setting, critical thinking, and team leadership. Developed strong organizational skills, collaborative problem-solving abilities, and adaptability. Enhanced creativity, time management, and communication through extracurricular responsibilities.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience section">
+            <h2>Experience</h2>
+             <div class="content-container">
+                <div class="experience-description">
+                    <h3>DevOps Engineer Intern</h3>
+                    <p><strong><a href="https://www.cazelabs.com" target="_blank" rel="noopener noreferrer">CazeLabs</a></strong> | May 2024 - Present</p>
+                    <ul>
+                        <li>Created and implemented 3+ end-to-end CI/CD pipelines using tools such as GitHub Actions. Configured build, test, and deployment stages to ensure continuous integration and delivery, improving overall deployment efficiency. Reduced deployment times by 90% through automated workflows, minimizing manual intervention and errors.</li>
+                        <li>Analyzed and resolved inefficiencies in Dockerfiles and container orchestration workflows, debugged Dockerfiles and optimized containerization workflows to achieve seamless scalability.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content-container">
+                <div class="experience-description">
+                    <h3>Network Engineer Intern</h3>
+                    <p><strong><a href="https://www.ssosec.com" target="_blank" rel="noopener noreferrer">SSOSEC</a></strong> | Dec 2023 - Jan 2024</p>
+                    <ul>
+                        <li>Developed a robust client-server program in C that facilitates real-time communication over TCP. Incorporated socket programming techniques to establish reliable connections, ensuring secure and efficient data transfer between the client and server. Designed the program with modular functions for connection setup, data transmission, and error handling, enhancing code readability and maintainability.</li>
+                        <li>Conducted a detailed analysis of various TCP communication protocols, including three-way handshakes, congestion control mechanisms, and error detection methods. Leveraged an in-depth understanding of the OSI model to design and optimize TCP-based communication systems.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <h2>Projects</h2>
+            <div class="content-container">
+                <div class="project-description">
+                    <h3>Phishing Attack Detection</h3>
+                    <p>
+                        <li>Designed and implemented a machine learning model (MLP) for phishing detection in Ethereum transactions, achieving an accuracy of 96.78%.
+                            Utilized Principal Component Analysis (PCA) to optimize dimensionality reduction, improving model efficiency and performance.</li>
+                        <li>Conducted comparative analysis of models including XGBoost, Random Forest, and SVM, identifying the MLP as the most effective approach.</li>
+                        <li>Preprocessed large-scale Ethereum datasets, reducing noise and redundancy for better predictive accuracy.</li>
+                        <li>Gained expertise in blockchain security, machine learning pipelines, and dimensionality reduction techniques.</li>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="centered-section">
+                <h2>Contact</h2>
+                <p>Email: <a href="mailto:srujanedu04@gmail.com">srujanedu04@gmail.com</a></p>
+                <p>Phone: +91-9108368334</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/srujan-chilveri-95aa27247/" target="_blank" rel="noopener noreferrer">
+                        <img src="data:image/png;base64,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" alt="LinkedIn">
+                    </a>
+                    <a href="https://github.com/Srujansgit" target="_blank" rel="noopener noreferrer">
+                        <img src="https://w7.pngwing.com/pngs/646/324/png-transparent-github-computer-icons-github-logo-monochrome-head-thumbnail.png" alt="GitHub">
+                    </a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Chilveri Srujan Kumar. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Scroll to "Contact" Section
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Download Resume
+        function downloadResume() {
+            window.open('/files/Chilveri_Srujan_Kumar_Resume.pdf', '_blank');
+        }
+    </script>
+</body>
+      </html>
